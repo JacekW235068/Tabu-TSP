@@ -37,12 +37,12 @@ public:
 	string toString();
 	~Graf();
 	Graf(int size, bool symetry);
-	int* TabuTSP(int iterations, int tabuLength);
+	
 	int* TabuTSPswap(int iterations, int tabuLength);
 	int* TabuTSPinsert(int iterations, int tabuLength);
 	int* TabuTSPswapTime(double Mseconds, int tabuLength);
 	int* TabuTSPinsertTime(double Mseconds, int tabuLength);
-	//int* TabuChainTSP(int iterations, int tabuLength);
+
 
 };
 
